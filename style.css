@@ -1,5 +1,7 @@
 .aliniar {
-    background-color: white 300px; border-radius: 20px;
+    background-color: white;
+    width: 300px;
+    border-radius: 20px;
     padding: 15px;
     color: hsl(218, 44%, 22%);
     display: flex;
@@ -7,6 +9,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 15px;
 }
 body {
     margin: 0;
@@ -14,12 +17,20 @@ body {
     display: flex;  
     justify-content: center;
     align-items: center;
-    background-color: hsl(216, 33%, 71%);
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
 }
 img {
     max-width: 100%;
     border-radius: 10px;
 }
-body {
-    font-family: 'Outfit', sans-serif;
+h1 {
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0;
+}
+p {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
 }
