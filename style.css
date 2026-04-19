@@ -1,4 +1,7 @@
 .aliniar {
+    background-color: white; border-radius: 20px;
+    padding: 15px;
+    color: hsl(218, 44%, 22%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,5 +14,9 @@ body {
     display: flex;  
     justify-content: center;
     align-items: center;
-    background-color: hsl(212, 45%, 89%);
+    background-color: hsl(215, 11%, 48%);
+}
+img {
+    max-width: 100%;
+    border-radius: 10px;
 }
